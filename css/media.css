@@ -1,0 +1,84 @@
+/* HEADER PAGE */
+@media only screen and (max-width: 600px) {
+    .click{
+        left: 25%;
+    }
+    .navbar {
+        position: absolute !important;
+        margin: 0px 0 !important;
+        left: 0;
+        top: 130px;
+        background-color: transparent !important;
+    }
+    .firstbar {
+        display: none;
+    }
+
+    #header {
+        background: #fff;
+        transition: all 0.5s;
+        z-index: 997;
+        top:0;
+        box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    }
+
+    .logo {
+        width: 64% !important;
+        height: auto;
+        margin-top: 18px;
+    }
+
+    /* carousel image */
+    .w-100 {
+        width: 100% !important;
+        height: 254px !important;
+
+    }
+
+    .cobel {
+        margin-left: 0px !important;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+
+    #navbar .active {
+        color: black;
+    }
+
+    #navbar .active:before {
+        background-color: white;
+    }
+
+    .navbar-expand-sm .navbar-nav .nav-link {
+        color: black;
+    }
+
+    .navbar-expand-sm {
+        background-color: white;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        z-index: 999;
+    }
+
+    .navbar-nav {
+        margin: 0px 0px 0px 0px !important;
+        background: white !important;
+        width: 323px !important; 
+    }
+
+    .navbar-nav .nav-item {
+        padding: 10px 0 10px 10px;
+    }
+
+    .bi {
+        margin: 0px 180px 0px -132px;
+    }
+
+
+
+
+}
+
+/* HEADER PAGE */
